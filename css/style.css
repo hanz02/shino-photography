@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+:root {
+  --dark-clr: #202020;
+  --grey-clr: #424242;
+
+  --white-clr: #faf9f9;
+}
+
+/** Base Styling */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e3e3e3;
+  height: auto;
+
+  color: var(--dark-clr);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  width: min(900px, 100%);
+  margin: auto;
+  box-shadow: 30px 0 40px rgba(0, 0, 0, 0.1), -30px 0 40px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+/** Landing */
+
+#landing {
+  background-color: var(--white-clr);
+
+  /* border: 6px solid red; */
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+
+  /* border: 6px solid blue; */
+}
+
+#landing-text h2 {
+  color: var(--grey-clr);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--dark-clr);
+
+  margin: 2rem auto;
+
+  text-decoration: none;
+  color: var(--dark-clr);
+}
+
+.btn:hover {
+  background: #eee8e8;
+  transition: background 500ms ease-in;
+}
+
+#landing-image {
+  background: url(https://source.unsplash.com/zYSzB2-cNBc);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+/** IMAGES */
+#images #header {
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--dark-clr);
+  color: var(--white-clr);
+}
+
+#images #header h2 {
+  border-left: dotted 1px var(--white-clr);
+  border-right: dotted 1px var(--white-clr);
+
+  display: inline-block;
+
+  padding: 0 1rem;
+}
+
+#images .caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+
+  color: var(--grey-clr);
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+footer .social-icon {
+  color: var(--grey-clr);
+}
+
+footer .fab {
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 600px) {
+  #landing {
+    display: flex;
+    height: 100%;
+
+    /* border: 6px solid red; */
+  }
+
+  #landing-text,
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
