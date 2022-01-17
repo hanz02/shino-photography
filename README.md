@@ -4,6 +4,20 @@ This is a small static web application project built to gain more experiences on
 
 The goal of the project is to understand and experience how people are building a responsive websites with mobile-first approach concept implemeneted and how is it important and preffered. 
 
+## Sites
+Live site to the portfolio: [https://hanz02.github.io/shino-photography/](https://hanz02.github.io/shino-photography/)
+
+## Site Overviews
+- Home Sections
+  - Head Section (Desktop View)
+  ![](./assets/git-screenshots/head-desktop.png)![](./assets/git-screenshots/head-mobile.png)  
+  
+  - Body & Footer
+  ![](./assets/git-screenshots/body-desktop.png)![](./assets/git-screenshots/body-mobile.png)
+  
+
+
+
 ## References
 
 The project website is built based of tutorial video on YouTube released by YouTube Channel named Traversy Media.
