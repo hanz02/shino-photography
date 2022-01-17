@@ -9,11 +9,13 @@ Live site to the portfolio: [https://hanz02.github.io/shino-photography/](https:
 
 ## Site Overviews
 - Home Sections
-  - Head Section (Desktop View)
-  ![](./assets/git-screenshots/head-desktop.png)![](./assets/git-screenshots/head-mobile.png)  
+  - Head Section 
+  ![](./assets/git-screenshots/head-desktop.png)
+  ![](./assets/git-screenshots/head-mobile.png)  
   
   - Body & Footer
-  ![](./assets/git-screenshots/body-desktop.png)![](./assets/git-screenshots/body-mobile.png)
+  ![](./assets/git-screenshots/body-desktop.png)
+  ![](./assets/git-screenshots/body-mobile.png)
   
 
 
